@@ -42,16 +42,26 @@ public class SupplierProfile{
     public String getEmail(){
         return email;
     }
-    public void set(String email){
+    public void setEmail(String email){
         this.email=email;
     }
-    public String getId(){
+    public String getPhone(){
         return phone;
     }
-    public void setId(String phone){
+    public void setPhone(String phone){
         this.phone=phone;
     }
-    public Boolean getId(){
+    public Boolean getActive(){
+        return active;
+    }
+    public void setActive(Boolean active){
 
+        this.active=active;
+    }
+    public LocalDateTime getCreatedAt(){
+        return getCreatedAt;
+    }
+    public void setCreatedAt(LocalDateTime createdAt){
+        this.createdAt=createdAt;
     }
 }
