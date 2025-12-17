@@ -27,22 +27,31 @@ public class SupplierProfile{
     public void setId(Long id){
         this.id=id;
     }
-    public String getId(){
+    public String getSupplierCode(){
         return supplierCode;
     }
-    public void setId(String supplierCode){
+    public void setSupplierCode(String supplierCode){
         this.supplierCode=supplierCode;
     }
-    public String getId(){
+    public String getSupplierName(){
         return supplierName;
     }
-    public void setId(String supplierName){
+    public void setSupplierName(String supplierName){
         this.supplierName=supplierName;
     }
-    public String getId(){
+    public String getEmail(){
         return email;
     }
-    public void setId(String email){
+    public void set(String email){
         this.email=email;
+    }
+    public String getId(){
+        return phone;
+    }
+    public void setId(String phone){
+        this.phone=phone;
+    }
+    public Boolean getId(){
+
     }
 }
