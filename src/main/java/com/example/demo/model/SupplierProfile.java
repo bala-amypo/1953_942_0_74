@@ -21,7 +21,7 @@ public class SupplierProfile{
     private LocalDateTime createdAt;
     
 
-    public Log getId(){
+    public Long getId(){
         return id;
     }
     public void setId(Long id){
@@ -30,5 +30,19 @@ public class SupplierProfile{
     public String getId(){
         return supplierCode;
     }
-    public void setId(String )
+    public void setId(String supplierCode){
+        this.supplierCode=supplierCode;
+    }
+    public String getId(){
+        return supplierName;
+    }
+    public void setId(String supplierName){
+        this.supplierName=supplierName;
+    }
+    public String getId(){
+        return email;
+    }
+    public void setId(String email){
+        this.email=email;
+    }
 }
