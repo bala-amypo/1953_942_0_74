@@ -20,4 +20,9 @@ public class SupplierProfile{
     private Boolean active;
     private LocalDateTime createdAt;
     
+
+    public Log getId(){
+        return id;
+    }
+    public void setId
 }
