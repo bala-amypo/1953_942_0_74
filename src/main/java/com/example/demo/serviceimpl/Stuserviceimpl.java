@@ -4,7 +4,7 @@ import com.example.demo.service.service;
 
 import com.example.demo.service.Stuservice;
 
-@service
+@Service
 public class Stuserviceimpl implements Stuservice{
     
 }
