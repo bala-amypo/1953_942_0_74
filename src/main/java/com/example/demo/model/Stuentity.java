@@ -13,7 +13,7 @@ public class Stuentity{
     private Long id;
     private String name;
     private String email;
-    private float cgpa;
+    private float c1gpa;
 
     public Long getId(){
         return id;
