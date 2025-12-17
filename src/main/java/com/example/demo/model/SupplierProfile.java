@@ -24,5 +24,11 @@ public class SupplierProfile{
     public Log getId(){
         return id;
     }
-    public void setId
+    public void setId(Long id){
+        this.id=id;
+    }
+    public String getId(){
+        return supplierCode;
+    }
+    public void setId(String )
 }
